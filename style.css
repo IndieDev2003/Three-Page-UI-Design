@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+html,body{
+    height:100%;
+    width: 100%;
+    background-color: antiquewhite;
+    font-family: "Lato", sans-serif;
+
+}
+#main{
+    height:100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:35px;
+}
+
+#right-sec{
+    height:820px;
+    width:440px;
+    /* background-color: aliceblue; */
+    background-image: url(https://i.pinimg.com/564x/24/fd/ee/24fdeeec6d1809eaaa5ac213b6ef4430.jpg);
+    border-radius: 45px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+#right-upper-sec{
+    height:55%;
+    width:60%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    /* background-color: aliceblue; */
+}
+#right-upper-sec h1{
+    font-size: 55px;
+    font-weight: 650;
+    color: rgb(255, 255, 255);
+}
+#right-bottom-sec{
+    width:100%;
+    height:45%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:25px;
+
+}
+#right-bottom-sec button{
+    height:20%;
+    width:65%;
+    border-radius: 113px;;
+}
+#signup{
+    border:none;
+    color:white;
+    font-size: 20px;
+    font-weight: 700;
+    backdrop-filter: blur(6px) saturate(126%);
+    -webkit-backdrop-filter: blur(12px) saturate(126%);
+    background-color: rgba(238, 76, 47, 0.521);
+    border-radius: 30px;
+}
+#signin{
+    border:none;
+    color:white;
+    font-size: 20px;
+    font-weight: 700;
+    backdrop-filter: blur(6px) saturate(126%);
+    -webkit-backdrop-filter: blur(12px) saturate(126%);
+    background-color: rgba(216, 200, 207, 0.486);
+    border-radius: 30px;
+}
+#center-sec{
+    height:820px;
+    width:440px;
+    /* background-color: aqua; */
+    background-image: url(https://img.freepik.com/premium-vector/beautiful-flamingo-bird-tropical-flowers-background_10083-377.jpg?w=740);
+    border-radius: 45px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+#center-main-sec{
+    width:90%;
+    height:70%;
+    background-color: #d9e0e6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius:45px ;
+    justify-content: center;
+    backdrop-filter: blur(6px) saturate(126%);
+    -webkit-backdrop-filter: blur(12px) saturate(126%);
+    background-color: rgba(216, 70, 133, 0.315);
+}
+#center-center-sec{
+    height: 60%;
+    font-family: "Teachers", sans-serif;
+
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:12px;
+    text-align: left;
+    color:rgb(255, 255, 255);
+
+ 
+}
+#input-sec{
+    /* height:100%; */
+    width: 100%;
+}
+#center-up{
+    width:90%;
+    height: 10%;
+}
+#center-up h1{
+    color: whitesmoke;
+    font-family: "Teachers", sans-serif;
+
+    text-align: left;
+    font-size:40px;
+    font-weight: 400;
+
+}
+#center-center-sec h3{
+    text-align: left;
+    padding:1px 0px 1px 0px;
+    font-weight: 400;
+
+}
+#center-center-sec label{
+    /* text-align: right; */
+    font-size:20px;
+    /* text-align: start; */
+}
+#center-center-sec input{
+    width: 100%;
+    font-size: 20px;
+    color:white;
+    padding: 1px 12px 1px 25px;
+    background: none;
+    border-top:none;
+    border-bottom:1px solid rgb(228, 223, 223);
+    border-left:none;
+    border-right:none;
+    height:25px;
+    /* border:none; */
+}
+#center-center-sec input:active{
+    border:none;
+    border-radius:none;
+    /* background-color: #d9e0e6; */
+}
+#center-center-sec i{
+    /* color:black; */
+    font-size:22px;
+    padding:30px 0px 10px 0px;
+    text-align: left;
+    font-weight: 500;
+}
+#center-center-sec button{
+    padding:20px 45px 20px 45px;
+    font-family: "Teachers", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 112px;
+    border:none;
+    text-align:center justify;
+    margin:20px 0px 0px 0px;
+    backdrop-filter: blur(6px) saturate(126%);
+    -webkit-backdrop-filter: blur(12px) saturate(126%);
+    background-color: #0564ad8a;
+}
+#center-center-sec h3{
+    margin:60px 0px 0px 0px;
+}
+#center-center-sec span{
+    color:yellow;
+}
+#left-sec{
+    height:820px;
+    width:440px;
+    font-family: "Teachers", sans-serif;
+
+    /* background-color: azure; */
+    background-image: url(https://img.freepik.com/premium-vector/beautiful-vintage-floral-seamless-pattern_18228-854.jpg?w=740);
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    justify-content: center;
+    flex-direction: column;
+}
+#left-up{
+    height:10%;
+    width:90%;
+    background-color: #d9e0e67a;
+    border-radius: 120px;
+    color:white;
+    font-weight: 300;
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 40px 0px 40px;
+    backdrop-filter: blur(6px) saturate(126%);
+    -webkit-backdrop-filter: blur(12px) saturate(126%);
+}
+#left-up i{
+    font-size: 34px;
+    color:white;
+}
+#left-center{
+    height:65%;
+    width:90%;
+    background-color: #d9e0e65b;
+    border-radius: 45px;
+    color:rgb(37, 26, 26);
+    backdrop-filter: blur(6px) saturate(126%);
+    -webkit-backdrop-filter: blur(12px) saturate(126%);
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    align-items: center;
+    text-align: center;
+}
+#left-center-img{
+    margin:10px 0px 10px 0px;
+    height:65%;
+    width:60%;
+    background-image: url(https://i.pinimg.com/564x/82/8a/99/828a996ca42898cd60a224155ff2eea3.jpg);
+    background-size: cover;
+    border-radius:35px;
+    border:solid 5px rgba(3, 3, 3, 0.521);
+}
+#left-center h2{
+    font-size:29px;
+    color:rgb(8, 8, 6);
+}
+#left-center h4{
+    font-size: 19px;
+    font-weight: 550;
+    color:whitesmoke;
+}
+#left-bottom{
+    height:10%;
+    width:90%;
+    background-color: #406e9793;
+    color:white;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    backdrop-filter: blur(6px) saturate(126%);
+    -webkit-backdrop-filter: blur(12px) saturate(126%);
+
+    
+}
